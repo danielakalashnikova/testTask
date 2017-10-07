@@ -1,0 +1,19 @@
+<html>
+  <head>
+      <title></title>
+      <meta charset="utf-8"/>
+      <script src="main.js"></script>
+	  <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <form>
+      <label>Задайте точки многоугольника (x1, y1, x2, y2, x3, y3, x4, y4):</label><br><br>
+      <input id="polygon" value="10, 50, 10, 160, 110, 20, 50, 10" size="35" type="text" />
+      <input type="button" onclick="check()" value="Нарисовать" /><br /><br>
+      <label>Точка (x, y):   </label><input id="point" value="0, 0" type="text" />
+      <input type="button" onclick="check()" value="Определить" />
+      <label id="text" style="font-size: 16px; color: green;"></label>
+    </form>
+  </body>
+ 
+</html>
